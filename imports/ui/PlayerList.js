@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Player from './Player';
 
 export default class PlayerList extends React.Component {
@@ -21,5 +22,5 @@ export default class PlayerList extends React.Component {
 };
 
 PlayerList.propTypes = {
-  players: React.PropTypes.array.isRequired
+  players: PropTypes.array.isRequired
 }
